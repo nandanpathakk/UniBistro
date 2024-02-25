@@ -34,7 +34,7 @@ export default function AddData() {
         formData.append("dishPrice", dishPrice);
         console.log(formData)
 
-        axios.post("http://localhost:5000/create", formData)
+        axios.post("https://unibistro-backend.onrender.com/create", formData)
             .then(function (response) {
                 console.log("data added successfully", response.data);
                 setDishImage("");

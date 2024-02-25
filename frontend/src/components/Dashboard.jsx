@@ -15,7 +15,7 @@ export default function Dashboard({ getApi, delApi, delAllApi, postApi, place}) 
     const [isModelOpen, setisModelOpen] = useState(false);
 
     useEffect(() => {
-        axios.get("http://localhost:5000/")
+        axios.get("https://unibistro-backend.onrender.com/")
             .then(function (response) {
                 setMenu(response.data.data)
             })

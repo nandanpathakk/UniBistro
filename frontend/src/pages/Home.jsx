@@ -17,14 +17,14 @@ export default function Home() {
             </div>
             <Header />
             <div className="flex flex-col mt-[50px] ml-[203px] gap-9">
-                <div className="text-[120px]/[110px] font-bold font-red-hat text-[#1F1D2B]">
+                <div className="md:text-[7.5rem]/[6.87rem] text-6xl font-bold font-red-hat text-[#1F1D2B]">
                     <p>Bunk</p>
                     <p className="text-[#BED754]">Eat</p>
                     <p>Repeat</p>
                 </div>
-                <div className="flex justify-between w-[400px] font-['Raleway'] font-medium">
+                <div className="md:flex md:justify-between flex flex-col gap-3 w-[25rem] font-['Raleway'] font-medium">
                     <div>
-                        <button className="border border-black-100 border-teal-600 text-teal-600 rounded-full w-[180px] py-[10px]" onClick={() => setShowOptionsAdmin(!showOptionsAdmin)}>Admin Login</button>
+                        <button className="border border-black-100 border-teal-600 text-teal-600 rounded-full md:w-[11.25rem] w-36 md:py-[0.62rem] py-[0.3rem] md:text-lg text-xs" onClick={() => setShowOptionsAdmin(!showOptionsAdmin)}>Admin Login</button>
                         {showOptionsAdmin && (
                             <ul className="absolute border mt-2 py-2 bg-white shadow-lg rounded-md w-40">
                                 <Link to={"/dashboard/mess"}>
@@ -40,7 +40,7 @@ export default function Home() {
                         )}
                     </div>
                     <div>
-                        <button className="border border-teal-600 bg-teal-600 text-white rounded-full w-[180px] py-[10px]" onClick={() => { setShowOptonMenu(!showOptonMenu) }}>Menu</button>
+                        <button className="border border-black-100 border-teal-600 bg-teal-600 text-white rounded-full md:w-[11.25rem] w-36 md:py-[0.62rem] py-[0.3rem] md:text-lg text-xs" onClick={() => { setShowOptonMenu(!showOptonMenu) }}>Menu</button>
                         {showOptonMenu && (
                             <ul className="absolute border mt-2 py-2 bg-white shadow-lg rounded-md w-40">
                                 <Link to={"/mess"}>

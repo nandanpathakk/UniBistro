@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import figure10 from "../assets/figure10.svg";
 import figure9 from "../assets/figure9.svg";
 import group from "../assets/Group.svg";
-import { Link, useOutlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     const [showOptionsAdmin, setShowOptionsAdmin] = useState(false);
@@ -58,8 +58,8 @@ export default function Home() {
                 </div>
             </div>
             <img className="absolute top-[50px] h-[400px]" src={figure10} alt="Figure 10" />
-            <img className="absolute bg-r top-[417px] h-[230px] left-[30px]" src={figure9} alt="Figure 9" />
-            <img className="absolute top-[140px] h-[505px] left-[1040px]" src={group} alt="Group" />
+            <img className="absolute bg-r top-[29.9rem] h-[240px] left-[30px]" src={figure9} alt="Figure 9" />
+            <img className="absolute top-[10.58rem] h-[550px] left-[73.2rem]" src={group} alt="Group" />
         </div>
     );
 }

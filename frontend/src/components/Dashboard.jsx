@@ -81,7 +81,7 @@ export default function Dashboard({ getApi, delApi, delAllApi, postApi, place, p
                             <div className="flex items-center justify-between mb-6">
                                 <h2 className="text-2xl font-bold text-gray-800">Menu</h2>
                                 <button onClick={() => setisModelOpen(true)}>
-                                    <CgAddR className="w-6 h-6 text-gray-800" />
+                                Add dish <CgAddR className="w-6 h-6 text-gray-800" />
                                 </button>
                                 <Modal isOpen={isModelOpen} onRequestClose={() => setisModelOpen(false)} ariaHideApp={false} className="modal flex justify-center items-center h-screen bg-transparent">
                                     <div className="bg-white rounded-lg p-6 shadow-lg">

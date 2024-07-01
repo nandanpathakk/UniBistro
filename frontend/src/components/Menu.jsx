@@ -36,7 +36,7 @@ export default function Menu({ place, api, reviewGet, reviewPost }) {
             <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"><div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]"> </div></div>
             <Header />
             <div>
-                <p className="font-red-hat text-9xl font-bold text-[#1F1D2B] ml-16 my-8">{place}</p>
+                <p className="font-red-hat md:text-9xl text-3xl font-bold text-[#1F1D2B] ml-16 my-8">{place}</p>
             </div>
             {loading ? (
                 // loading gif

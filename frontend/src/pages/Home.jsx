@@ -10,7 +10,7 @@ export default function Home() {
     const [showOptonMenu, setShowOptonMenu] = useState(false);
 
     return (
-        <div className="max-h-screen relative">
+        <div className="min-h-screen relative">
             <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
                 <div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]">
                 </div>
@@ -58,8 +58,8 @@ export default function Home() {
                 </div>
             </div>
             <img className="absolute top-[3.125rem] h-[25rem]" src={figure10} alt="Figure 10" />
-            <img className="absolute bg-r top-[29.9rem] h-[15rem] left-[1.875rem]" src={figure9} alt="Figure 9" />
-            <img className="hidden md:flex md:absolute md:top-[10.58rem] md:h-[34.37rem] md:left-[73.2rem]" src={group} alt="Group" />
+            <img className="absolute bg-r top-[29.9rem] h-[10rem] left-[1.875rem]" src={figure9} alt="Figure 9" />
+            <img className="hidden md:flex md:absolute md:top-[10.58rem] md:h-[30.37rem] md:left-[70.2rem]" src={group} alt="Group" />
         </div>
     );
 }

@@ -58,8 +58,8 @@ export default function Home() {
                 </div>
             </div>
             <img className="absolute top-[3.125rem] h-[25rem]" src={figure10} alt="Figure 10" />
-            <img className="absolute bg-r top-[29.9rem] h-[10rem] left-[1.875rem]" src={figure9} alt="Figure 9" />
-            <img className="hidden md:flex md:absolute md:top-[10.58rem] md:h-[30.37rem] md:left-[70.2rem]" src={group} alt="Group" />
+            <img className="absolute bg-r top-[29.9rem] h-[10.5rem] left-[1.875rem]" src={figure9} alt="Figure 9" />
+            <img className="hidden md:flex md:absolute md:top-[10.58rem] md:h-[28.37rem] md:left-[68.2rem]" src={group} alt="Group" />
         </div>
     );
 }

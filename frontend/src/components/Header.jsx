@@ -49,11 +49,11 @@ export default function Header() {
 
             {/* Side Navbar */}
             <div className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform ${showMenu ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
-                {/* <div className="flex items-center justify-end p-4">
+                <div className="flex items-center justify-end p-4">
                     <button onClick={toggleMenu}>
                         <IoIosMenu />
                     </button>
-                </div> */}
+                </div>
                 <div className="flex flex-col items-start px-4 text-lg font-red-hat font-medium">
                     <p className={isSelected('/') ? 'text-teal-600' : "text-gray-800"}>
                         <Link to="/">Home</Link>

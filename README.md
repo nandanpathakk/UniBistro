@@ -21,7 +21,7 @@ Welcome to UniBistro, your go-to College Canteen Food Selection Web App! Simplif
 
 ## Technologies Used
 
-- **Frontend:** JavaScript- React
+- **Frontend:** JavaScript- React, Tailwind
 - **Backend:** Node.js, Express.js, MongoDB
 
 ## Contributors

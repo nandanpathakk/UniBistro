@@ -49,10 +49,10 @@ export default function AddData() {
     return (
         // <div className="flex flex-col justify-center items-center h-screen">
         <div>
-            <div className="font-bold text-5xl mb-8 text-[#1F1D2B]">
+            <div className="font-bold bg text-5xl mb-8 text-[#1F1D2B]">
                 Add Your Dish
             </div>
-            <div className="flex items-center bg-[#79E777] p-7 rounded-xl">
+            <div className="flex items-center p-7 rounded-xl">
                 <div className="flex flex-col gap-5 m-5 w-[500px]">
                     <input
                         value={dishName}
@@ -80,7 +80,7 @@ export default function AddData() {
 
                     <div className="flex justify-center items-center">
                     <button onClick={handleSubmit}
-                        className="px-8 py-1 bg-black text-white hover:bg-white rounded-md hover:text-black">Submit</button>
+                        className="px-8 py-1 bg-black text-white hover:bg-gray-200 rounded-md hover:text-black">Submit</button>
                     </div>
                     
                 </div>

@@ -44,7 +44,7 @@ export default function Menu({ place, api, reviewGet, reviewPost }) {
                     <img className="w-60 h-48" src={loadingfood} alt="loading gif" />
                 </div>
             ) : (
-                <div className="ml-16 mt-20 grid sm:grid-cols-5 grid-cols-1">
+                <div className="ml-16 mt-20 grid md:grid-cols-5 grid-cols-1">
                     {menu.map((data, index) => (
                         <FoodCard key={index} name={data.dishName} price={data.dishPrice} image={food} addToCart={addItemToCart} reviewGet={reviewGet} reviewPost={reviewPost} />
                     ))}
